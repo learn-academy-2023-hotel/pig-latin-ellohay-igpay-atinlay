@@ -10,7 +10,16 @@ const App = () => {
   const [inputTranslated, setInputTranslated] = useState("")
 
   // ACTION ITEM: the "myPigLatinCodeHere" function is where you will put your logic to translate the sentence entered by the user into Pig Latin
-  const myPigLatinCodeHere = () => {
+  const myPigLatinCodeHere = (word) => {
+    // const vowel = ["a", "e", "i", "o", "u"]
+    //  if (vowel.includes(word[0])) {
+    //   return word + "way"
+    //  } else 
+
+
+   
+  
+    
     // NO MODIFICATION NEEDED: the variable "arrayOfUserInput" will contain the text input from the user split into an array of words
     const arrayOfUserInput = userInput.split(" ")
     console.log("arrayOfUserInput:", arrayOfUserInput)
@@ -32,6 +41,8 @@ const App = () => {
       console.log("vowelsArray:", vowelsArray)
 
       // ACTION ITEM: your Pig Latin logic goes here!
+
+
 
       // ACTION ITEM: this return will be the output of your Pig Latin'd code
       return eachWord
